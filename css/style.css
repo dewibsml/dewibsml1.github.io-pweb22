@@ -1,0 +1,109 @@
+body {
+  background: linear-gradient(to right, #e4d1b9, #b09b71);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.my-photo p {
+  text-align: center;
+  padding: 3px;
+  color: #483838;
+  font-size: 21px;
+}
+
+img {
+  margin-top: 30px;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 99em;
+  box-shadow: 0px 0px 10px 5px;
+  color: #E4073FF;
+}
+
+.title {
+  text-align: center;
+}
+
+td:hover {
+  background-color: blue;
+}
+
+th:hover {
+  background-color: blue;
+}
+
+.kepala-tabel {
+  background-color: burlywood;
+}
+
+.tabel {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.tombol-bestie {
+  background-color: lightskyblue;
+  color: #483838;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 120px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.tombol-teman a {
+  padding: 15px 25px;
+}
+
+.tombol-temancss {
+  background-color: lightskyblue;
+  color: #483838;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 120px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: 450px;
+  margin-top: -48px;
+  margin-left: auto;
+}
+
+.tombol-bestie a {
+  padding: 15px 25px;
+}
+
+.tombol-bestie-css {
+  background-color: lightskyblue;
+  color: #483838;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 120px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: 450px;
+  margin-top: -48px;
+  margin-left: auto;
+}
+
+.tombol-bestie-css a {
+  padding: 15px 25px;
+}
+
+.tombol-bestie-jquery {
+  background-color: lightskyblue;
+  color: #483838;
+  border-radius: 20px;
+  padding: 15px 5px;
+  width: 145px;
+  box-shadow: 0px 0px 10px 3px;
+  margin-right: 450px;
+  margin-top: -48px;
+  margin-left: 429px;
+}
+
+.tombol-back-bestie-css a:hover {
+  background-color: lightblue;
+}
+
