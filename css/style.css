@@ -3,7 +3,7 @@ body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.my-photo p {
+.myphoto p {
   text-align: center;
   padding: 3px;
   color: #483838;
@@ -35,7 +35,7 @@ th:hover {
 }
 
 .kepala-tabel {
-  background-color: burlywood;
+  background-color: blue;
 }
 
 .tabel {
@@ -60,7 +60,7 @@ th:hover {
 }
 
 .tombol-temancss {
-  background-color: lightskyblue;
+  background-color: lightblue;
   color: #483838;
   border-radius: 20px;
   padding: 15px 5px;
@@ -76,7 +76,7 @@ th:hover {
 }
 
 .tombol-bestie-css {
-  background-color: lightskyblue;
+  background-color: lightblue;
   color: #483838;
   border-radius: 20px;
   padding: 15px 5px;
@@ -92,8 +92,7 @@ th:hover {
 }
 
 .tombol-bestie-jquery {
-  background-color: lightskyblue;
-  color: #483838;
+  background-color: lightblue ;
   border-radius: 20px;
   padding: 15px 5px;
   width: 145px;
