@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>10 Best Friends</title>
+  </head>
+  <body>
+    <h1 class="title">top 10 Friends</h1>
+    <table class="tabel">
+      <tr class="kepala-tabel">
+        <th>No</th>
+        <th>Nama</th>
+        <th>Alamat</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>aynun nabila</td>
+        <td>Tegal</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>pita triya</td>
+        <td>Cirebon</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Pita Triya</td>
+        <td>Cirebon</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Taneshya</td>
+        <td>Cirebon</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>ikna</td>
+        <td>Cirebon</td>
+      </tr>
+
+      <tr>
+        <td>6</td>
+        <td>juhartini</td>
+        <td>Cirebon</td>
+      </tr>
+
+      <tr>
+        <td>7</td>
+        <td>novi</td>
+        <td>Cirebon</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>putri</td>
+        <td>cirebon</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>aji</td>
+        <td>Cirebon</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Agnes</td>
+        <td>Cirebon</td>
+      </tr>
+    </table>
+
+    <div class="tombol-back-">
+      <a onclick="alert('Kamu mau kembali?')" href="../index.html"
+        >Back to Home</a
+      >
+    </div>
+  </body>
+</html>
