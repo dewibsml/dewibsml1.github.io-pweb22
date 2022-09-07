@@ -1,5 +1,5 @@
 body {
-  background: Grape(to right, #483847,  #6b2b61);
+  background: linear-gradient(to right, #483847, #6b2b61);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
