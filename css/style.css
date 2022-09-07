@@ -1,12 +1,12 @@
 body {
-  background: Blue(to right, red );
+  background: Blue(to right,  );
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .myphoto p {
   text-align: center;
   padding: 3px;
-  color: #483838;
+  color: #483847;
   font-size: 21px;
 }
 
@@ -27,15 +27,15 @@ img {
 }
 
 td:hover {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 th:hover {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 .kepala-tabel {
-  background-color: blue;
+  background-color: lightblue;
 }
 
 .tabel {
@@ -45,7 +45,7 @@ th:hover {
 
 .tombol-bestie {
   background-color: lightskyblue;
-  color: #483838;
+  color: #483847;
   border-radius: 20px;
   padding: 15px 5px;
   width: 120px;
@@ -61,7 +61,7 @@ th:hover {
 
 .tombol-temancss {
   background-color: lightblue;
-  color: #483838;
+  color: #483847;
   border-radius: 20px;
   padding: 15px 5px;
   width: 120px;
@@ -77,7 +77,7 @@ th:hover {
 
 .tombol-bestie-css {
   background-color: lightblue;
-  color: #483838;
+  color: #483847;
   border-radius: 20px;
   padding: 15px 5px;
   width: 120px;
@@ -93,6 +93,7 @@ th:hover {
 
 .tombol-bestie-jquery {
   background-color: lightblue ;
+  color:  #483847;
   border-radius: 20px;
   padding: 15px 5px;
   width: 145px;
