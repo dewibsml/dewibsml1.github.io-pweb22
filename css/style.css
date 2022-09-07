@@ -1,5 +1,5 @@
 body {
-  background-image: linearGradient(to right,#a5d3d6, #96c5eb);
+  background: linear-gradient(to right,#a5d3d6, #96c5eb);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
