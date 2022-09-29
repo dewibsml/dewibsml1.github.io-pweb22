@@ -1,0 +1,38 @@
+  body {
+    background-color: brown;
+    padding: auto;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  .top{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .teman:hover {
+    background-color: coffe;
+  }
+   
+  .head-tabel {
+    background-color: rgb(103, 255, 57);
+  }
+  
+  .tabel {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .aksi {
+    background-color: rgb(127, 127, 158);
+    font-family: Arial;
+  }
+  
+  .aksi:hover {
+    background-color: rgb(250, 10, 10);
+  }
