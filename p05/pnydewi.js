@@ -7,7 +7,7 @@ $(document).ready(function(){
       let nama = $('#nama__'+id_baris).text();
 
       if(isi=='Hapus'){
-          let konfirmasi = confirm(`Ente Yakin ingin menghapus..! ${nama} ??`);
+          let konfirmasi = confirm(`Anda Yakin ingin menghapus..! ${nama} ??`);
           if(!konfirmasi) return;
 
           $('#fade__'+id_baris).fadeOut();
