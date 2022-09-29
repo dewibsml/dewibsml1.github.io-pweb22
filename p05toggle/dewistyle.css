@@ -1,26 +1,26 @@
 body{
-      background-color: brown;
+      background-color: ivory;
       background-image:url(pmb.jpg);
 }
 
 #flip {
       padding: 5px;
       text-align: center;
-      background-color: blue;
-      border: solid 1px green;
+      background-color: beige;
+      border: solid 1px blue;
       font-family: Arial;
-      color: aliceblue;
+      color: gold;
       cursor: pointer;
 }
 
 #flip:hover{
-    background-color: rgb(90,17, 226);
+    background-color: rgb(192,192, 192);
 }
     
 #panel {
       padding: 50px;
       text-align: center;
-      background-color: aliceblue;
+      background-color: beige;
       border: solid 1px blue;
       font-family: sans-serif;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
