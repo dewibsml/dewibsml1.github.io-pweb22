@@ -1,0 +1,27 @@
+body{
+      background-color: marine;
+}
+
+#flip {
+      padding: 5px;
+      text-align: center;
+      background-color: blue;
+      border: solid 1px pink;
+      font-family: Arial;
+      color: aliceblue;
+      cursor: pointer;
+}
+
+#flip:hover{
+    background-color: rgb(135,206,250);
+}
+    
+#panel {
+      padding: 50px;
+      text-align: center;
+      background-color: light sky blue;
+      border: solid 1px blue;
+      font-family: sans-serif;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      display: none;
+    }
