@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "FSP DEMO – Giraffe Bold";
+  src url("DEMO-giraffe-bold.ttf");
+}
+
+body {
+  background-image:url(pmb.jpg);
+  background-position:center;
+  background-size:cover;
+  font-family: "FSP DEMO – Giraffe Bold";
+  font-size: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+legend {
+  color: red;
+}
+
+th {
+  padding: 0.6rem;
+  font-size: 18px;
+}
+
+select:hover {
+  background-color: cream;
+}
+
+option:hover {
+  background-color: cream;
+}
+
+input:hover {
+  background-color: cream;
+}
+
+textarea:hover {
+  background-color: cream;
+}
+
+table {
+  margin: 50px;
+}
+
+h1 {
+  color: black;
+}
+
+.rules {
+  padding-bottom: 1rem;
+  color: red;
+}
+
+
+ 
