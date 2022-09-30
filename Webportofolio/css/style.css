@@ -1,3 +1,6 @@
+body{
+      background-color: beige;
+}
 * {
 	padding:0;
 	margin:0;
@@ -35,10 +38,31 @@ header ul li a:hover {
 a {
 	text-decoration: none;
 }
+#flip {
+      padding: 5px;
+      text-align: center;
+      background-color: blue;
+      border: solid 1px green;
+      font-family: Arial;
+      color: aliceblue;
+      cursor: pointer;
+}
+#flip:hover{
+    background-color: rgb(90, 17, 226);
+}
 .container {
 	width:90%;
 	margin:0 auto;
 }
+#panel {
+      padding: 50px;
+      text-align: center;
+      background-color: aliceblue;
+      border: solid 1px blue;
+      font-family: sans-serif;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      display: none;
+       }
 .container::after {
 	content: '';
 	display: block;
@@ -138,7 +162,7 @@ section h3::after {
 	line-height: 25px;
 	margin-bottom: 15px;
 }
-#skills,
+#Tugas,
 #contact {
 	background-color: #f9f9f9;
 }
