@@ -162,11 +162,16 @@ section h3::after {
 	line-height: 25px;
 	margin-bottom: 15px;
 }
-#Tugas,
+#Tugas pweb {
+	text-align: justify;
+	text-indent: 30px;
+	line-height: 25px;
+	margin-bottom: 15px;
+}	
 #contact {
 	background-color: #f9f9f9;
 }
-#skills .bar {
+#Tugas .bar {
 	height: 30px;
 	background-color: #fff;
 	border:1px solid #ddd;
