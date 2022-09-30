@@ -38,7 +38,7 @@ header ul li a:hover {
 a {
 	text-decoration: none;
 }
-.flip {
+#flip {
       padding: 5px;
       text-align: center;
       background-color: blue;
@@ -47,14 +47,14 @@ a {
       color: aliceblue;
       cursor: pointer;
 }
-.flip:hover{
+#flip:hover{
     background-color: rgb(68, 245, 248);
 }
 .container {
 	width:90%;
 	margin:0 auto;
 }
-.panel {
+#panel {
       padding: 50px;
       text-align: center;
       background-color: aliceblue;
