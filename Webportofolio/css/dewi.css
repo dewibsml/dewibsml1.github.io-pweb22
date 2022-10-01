@@ -1,5 +1,5 @@
 body{
-      background-color: light blue;
+      background-color: DeepSkyBlue;
 }
 * {
 	padding:0;
@@ -33,7 +33,7 @@ header ul li a {
 	transition: .3s;
 }
 header ul li a:hover {
-	color: #F84744;
+	color: #48D1CC;
 }
 a {
 	text-decoration: none;
@@ -98,13 +98,13 @@ a {
 	transition-property: background-color;
 }
 .sidebar ul li:hover {
-	background-color: #F84744;
+	background-color: #48D1CC;
 }
 #check:checked ~ .sidebar {
 	left: 0;
 }
 .banner {
-	background-color: #1F68B6;
+	background-color: #6ebef0;
 	padding:150px 0;
 }
 section {
@@ -153,7 +153,7 @@ section h3::after {
 	bottom: -1px;
 	width:40px;
 	height:4px;
-	background-color: #F84744;
+	background-color: #f55d5d;
 	left: calc(50% - 20px);
 }
 #about p {
@@ -179,7 +179,7 @@ section h3::after {
 }
 .bar .nilai {
 	height:30px;
-	background-color: #F84744;
+	background-color: #15a355;
 	display: inline-block;
 	color: #fff;
 	text-align: center;
