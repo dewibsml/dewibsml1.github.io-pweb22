@@ -1,6 +1,6 @@
 $(function(){
-  $('.SlideDownMenu').on('click', '.MenuTab', function () {
-    $('nav').slideToggle('fast');
+  $('.container').on('click', '.MenuTab', function () {
+    $('ul').slideToggle('fast');
     return false;
   });
 });
