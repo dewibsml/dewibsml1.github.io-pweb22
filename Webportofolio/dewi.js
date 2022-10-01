@@ -3,19 +3,19 @@ $(document).ready(function(){
         $("#panel").slideToggle("slow");
     });
 });
-$(document).ready(function(){
-    $("#flip1").click(function(){
-        $("#panel1").slideToggle("slow");
+
+    $("#tugas").click(function(){
+        $("#pweb").slideToggle("slow");
     });
 });
-$(document).ready(function(){
-    $("#flip2").click(function(){
-        $("#panel2").slideToggle("slow");
+
+    $("#quotes").click(function(){
+        $("#nimal").slideToggle("slow");
     });
 });
-$(document).ready(function(){
-    $("#flip3").click(function(){
-        $("#panel3").slideToggle("slow");
+
+    $("#contact").click(function(){
+        $("#cinta").slideToggle("slow");
     });
 });
 
