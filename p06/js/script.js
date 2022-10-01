@@ -1,10 +1,6 @@
-$(document).ready(function(){
-  $('.menu-toggle').click(function(){
-    $('nav').toggleClass('active');
+$(function(){
+  $('.SlideDownMenu').on('click', '.MenuTab', function () {
+    $('nav').slideToggle('fast');
+    return false;
   });
-  
-  $('ul li').click(function(){
-    $(this).siblings().removeClass('active');
-    $(this).toggleClass('active');
-  })
-})
+});
