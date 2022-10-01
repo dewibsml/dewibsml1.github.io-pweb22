@@ -1,5 +1,5 @@
 body{
-      background-color: beige;
+      background-color: light blue;
 }
 * {
 	padding:0;
@@ -20,7 +20,7 @@ header h1 a {
 	transition: .3s;
 }
 header h1 a:hover {
-	color: #F84744;
+	color: #FB2322;
 }
 header ul {
 	float: right;
@@ -48,7 +48,7 @@ a {
       cursor: pointer;
 }
 #flip:hover{
-    background-color: rgb(90, 17, 226);
+    background-color: rgb(133, 37, 36);
 }
 .container {
 	width:90%;
