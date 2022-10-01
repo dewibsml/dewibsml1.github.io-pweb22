@@ -1,0 +1,82 @@
+body{
+      background-color: DeepSkyBlue;
+      background-image:url(wisuda.jpg);
+}
+* {
+	padding:0;
+	margin:0;
+	font-family: 'Quicksand', sans-serif;
+	color: #333;
+}
+header {
+	height:70px;
+}
+header h1 {
+	display: inline-block;
+	float: left;
+	padding:15px 24px;
+	text-transform: uppercase;
+}
+header h1 a {
+	transition: .3s;
+}
+header h1 a:hover {
+	color: #FB2322;
+}
+header ul {
+	float: right;
+}
+header ul li {
+	padding:24px;
+	display: inline-block;
+}
+header ul li a {
+	transition: .3s;
+}
+header ul li a:hover {
+	color: #48D1CC;
+}
+a {
+	text-decoration: none;
+}
+#flip {
+      padding: 5px;
+      text-align: center;
+      background-color: blue;
+      border: solid 1px green;
+      font-family: Arial;
+      color: aliceblue;
+      cursor: pointer;
+}
+#flip:hover{
+    background-color: rgb(133, 37, 36);
+}
+.container {
+	width:90%;
+	margin:0 auto;
+}
+#panel {
+      padding: 50px;
+      text-align: center;
+      background-color: aliceblue;
+      border: solid 1px blue;
+      font-family: sans-serif;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      display: none;
+       }
+.container::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+.mobile-menu {
+	float: right;
+	display: none;
+	padding:18px;
+}
+.mobile-menu:hover {
+	cursor: pointer;
+}
+#check {
+	display: none;
+}
