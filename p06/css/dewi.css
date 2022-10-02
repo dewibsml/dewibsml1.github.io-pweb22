@@ -1,3 +1,15 @@
+body{
+  margin: 0;
+}
+
+div{
+  background-color: blue;
+  padding: 10px;
+}
+ol {
+  display: none;
+ }
+
 SlideDownMenu {
   border-top: 8px solid #8657DB;
   position: fixed;
