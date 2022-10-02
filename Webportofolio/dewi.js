@@ -4,18 +4,18 @@ $(document).ready(function(){
     });
 });
 
-    $("#tugas").click(function(){
-        $("#pweb").slideToggle("slow");
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
     });
 });
 
-    $("#quotes").click(function(){
-        $("#nimal").slideToggle("slow");
+    $("#flip").click(function(){
+        $("panel").slideToggle("slow");
     });
 });
 
-    $("#contact").click(function(){
-        $("#cinta").slideToggle("slow");
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
     });
 });
 
