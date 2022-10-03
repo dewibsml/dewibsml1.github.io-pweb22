@@ -1,20 +1,10 @@
-$(document).ready(function(){
-    $("#about").click(function(){
-        $("li").slideToggle("slow");
-    });
-});
+var tombolMenu = document.getElementsByClassName('tombol-menu')[0];
+var menu = document.getElementsByClassName('menu')[0];
 
-    $("#tugas").click(function(){
-        $("li").slideToggle("slow");
-    });
-});
+tombolMenu.onclick = function() {
+    menu.classList.toggle('active');
+}
 
-    $("#quotes").click(function(){
-        $("li").slideToggle("slow");
-    });
-});
-
-    $("#contact").click(function(){
-        $("li").slideToggle("slow");
-    });
-});
+menu.onclick = function() {
+    menu.classList.toggle('active');
+}
