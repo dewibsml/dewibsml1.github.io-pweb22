@@ -1,145 +1,127 @@
-body{
-  margin: 0;
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
 }
 
-div{
-  background-color: blue;
-  padding: 10px;
-}
-ol {
-  display: none;
- }
-
-SlideDownMenu {
-  border-top: 8px solid #8657DB;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-.SlideDownMenu nav {
-  background-color: #8657DB;
-  display: none;
-  height: 100px;
-  top: 0;
-}
-/*Menu Tap*/
-.MenuTab {
-  float: right;
-  margin: 0 40px 0 0;
-  width: 40px;
-}
-/*Nav Tap*/
-.NavTab {
-    background-color: #8657db;
-    border-radius: 0 0 5px 5px;
-    height: 40px;
-    text-align: center;
-    width: 60px;
-}
-/*Border*/
-.NavTab a {
-  position: relative;
-  padding-left: 25px;
-}
- 
-.NavTab a:before {
-  content: "";
-  position: absolute;
-  top: 16px;
-  left: 0;
-  width: 25px;
-  height: 0.125em;
-  border-top: 0.5em double #333;
-  border-bottom: 0.2em solid #333;
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
 }
 
-SlideDownMenu ul {
-    list-style: outside none none;
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
     margin: 0;
-    padding: 22px 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: black;
+    font-weight: bold;
     text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
 }
-.SlideDownMenu ul li {
-  display: inline-block;
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
-.SlideDownMenu ul li a {
-  position:relative;
-  z-index: 1;
-  display: block;
-  padding: 12px 20px;
-  text-decoration: none;
-  color: #000;
-  font-weight: 800;
-  text-transform: uppercase;
-  margin: 0 10px;
-}
-.SlideDownMenu ul li a:hover {
-  color: #fff;
-}
-.SlideDownMenu ul li a:after {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  margin: auto;
-  width: 100%;
-  height: 1px;
-  content: '.';
-  color: transparent;
-  background: #8e44ad;
-  border-radius:5px;
-  visibility: none;
-  opacity: 0;
-  z-index: -1;
-  transition: all .5s;
-}
-.SlideDownMenu ul li a:hover:after {
-  opacity: 1;
-  visibility: visible;
-  height: 100%;
-}
-/* Keyframes */
-@-webkit-keyframes fill {
-  0% {
-    width: 0%;
-    height: 1px;
-  }
-  50% {
-    width: 100%;
-    height: 1px;
-  }
-  100% {
-    width: 100%;
-    height: 100%;
-    background: #333;
-  }
-}
-/* Keyframes */
-@-webkit-keyframes circle {
-  0% {
-    width: 1px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+section {
     margin: auto;
-    height: 1px;
-    z-index: -1;
-    background: #eee;
-    border-radius: 100%;
-  }
-  100% {
-    background: #aaa;
-    height: 5000%;
-    width: 5000%;
-    z-index: -1;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border-radius: 0;
-  }
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+.tombol-menu {
+    position: absolute;
+    top: 1.7rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.tombol-menu .garis {
+    height: 3px;
+    background-color: #3f72af;
+}
+
+@media screen and (max-width: 991.98px) {
+    .logo a {
+        display: inline;
+    }
+    .tombol-menu {
+        display: flex;
+    }
+    nav .menu {
+        display: none;
+    }
+    nav .menu.active {
+        display: flex;
+    }
+    nav ul li {
+        width:100%;
+        border-bottom:1px solid #333333;
+    }
 }
