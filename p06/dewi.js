@@ -1,20 +1,20 @@
 $(document).ready(function(){
     $("#about").click(function(){
-        $("ol").slideToggle("slow");
+        $("li").slideToggle("slow");
     });
 });
 
     $("#tugas").click(function(){
-        $("ol").slideToggle("slow");
+        $("li").slideToggle("slow");
     });
 });
 
     $("#quotes").click(function(){
-        $("ol").slideToggle("slow");
+        $("li").slideToggle("slow");
     });
 });
 
     $("#contact").click(function(){
-        $("ol").slideToggle("slow");
+        $("li").slideToggle("slow");
     });
 });
