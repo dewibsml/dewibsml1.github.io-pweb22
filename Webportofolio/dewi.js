@@ -3,19 +3,3 @@ $(document).ready(function(){
         $("#panel").slideToggle("slow");
     });
 });
-
-    $("#flip").click(function(){
-        $("#panel").slideToggle("slow");
-    });
-});
-
-    $("#flip").click(function(){
-        $("panel").slideToggle("slow");
-    });
-});
-
-    $("#flip").click(function(){
-        $("#panel").slideToggle("slow");
-    });
-});
-
